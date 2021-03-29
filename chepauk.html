@@ -1,0 +1,15 @@
+–<html>
+  <head>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+     <img id="texture" src="texture.jpg">
+     </a-assets>
+     <a-entity environment="preset: japan"></a-entity>
+      <a-camera position='-2 4 30'></a-camera>
+      <a-circle src="grass.jpg" radius="25" position='0 1 0' rotation="-90 0 0"></a-circle>
+  </body>
+</html>
